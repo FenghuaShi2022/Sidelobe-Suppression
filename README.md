@@ -11,8 +11,7 @@
 
 (3) propagation length (FHWM of the y-profile of the light sheet), illumination variation, light sheet thickness (FHWM of the z-profile of the light sheet), and P_side/P_main (figure 3, figure S1, and figure S2-S5)
 
-(4) P_1st_side (figure S2-S5)
+(4) z-profile of the dithered light sheet obtained by using Fourier transform (for the comparison with the z-profile obtained by using diffraction integration method )
 
-(5) z-profile of the dithered light sheet obtained by using Fourier transform (for the comparison with the z-profile obtained by using diffraction integration method )
-
-**** relative_P_1st_side_four_line.mat and relative_P_1st_side_Bessel_line.mat are the data required for the calculation of P_1st_side in four line and Bessel light sheet, respectively.******
+Additionlly, the calculation of P_1st_side (data required in figure S2-S5) is involved in four_line_light_sheet.m and Bessel_light_sheet.m
+(relative_P_1st_side_four_line.mat and relative_P_1st_side_Bessel_line.mat are the data required for the calculation of P_1st_side in four line and Bessel light sheet, respectively)
